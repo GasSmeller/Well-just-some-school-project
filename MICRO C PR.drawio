@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="Page-1" id="gk-56mLnXrl7YmAgBVYz">
-    <mxGraphModel dx="1753" dy="831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="740" dy="832" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -153,6 +153,57 @@
         </mxCell>
         <mxCell id="JaQb_0qVJ0__KAzx68k_-55" value="no" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="177" y="1148" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JaQb_0qVJ0__KAzx68k_-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JaQb_0qVJ0__KAzx68k_-56" target="JaQb_0qVJ0__KAzx68k_-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JaQb_0qVJ0__KAzx68k_-56" value="Start setup" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="863" y="58" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JaQb_0qVJ0__KAzx68k_-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JaQb_0qVJ0__KAzx68k_-58" target="JaQb_0qVJ0__KAzx68k_-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JaQb_0qVJ0__KAzx68k_-58" value="call remoteXY" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="863" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JaQb_0qVJ0__KAzx68k_-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JaQb_0qVJ0__KAzx68k_-59" target="JaQb_0qVJ0__KAzx68k_-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JaQb_0qVJ0__KAzx68k_-59" value="set pinmode A and B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="863" y="274" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JaQb_0qVJ0__KAzx68k_-60" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="863" y="379" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JaQb_0qVJ0__KAzx68k_-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JaQb_0qVJ0__KAzx68k_-66" target="JaQb_0qVJ0__KAzx68k_-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JaQb_0qVJ0__KAzx68k_-66" value="start loop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="875" y="524" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JaQb_0qVJ0__KAzx68k_-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JaQb_0qVJ0__KAzx68k_-67" target="JaQb_0qVJ0__KAzx68k_-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JaQb_0qVJ0__KAzx68k_-67" value="call remoteXY" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="875" y="652" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JaQb_0qVJ0__KAzx68k_-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JaQb_0qVJ0__KAzx68k_-70" target="JaQb_0qVJ0__KAzx68k_-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JaQb_0qVJ0__KAzx68k_-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JaQb_0qVJ0__KAzx68k_-70" target="JaQb_0qVJ0__KAzx68k_-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JaQb_0qVJ0__KAzx68k_-70" value="check remoteXY&lt;div&gt;Switch 1 or 0&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="858" y="738" width="154" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="JaQb_0qVJ0__KAzx68k_-72" value="Call right wheel &lt;br&gt;Joystick 1y - Joystick 1y&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="843" y="1055" width="184" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="JaQb_0qVJ0__KAzx68k_-74" value="if 1 Pin switch 1 High" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="875" y="878" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JaQb_0qVJ0__KAzx68k_-75" value="if 1 Pin switch 0 low" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1044" y="767.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
